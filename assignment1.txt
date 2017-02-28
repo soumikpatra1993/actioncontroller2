@@ -1,0 +1,13 @@
+Prefix Verb   URI Pattern                       Controller#Action
+        account_signup GET    /account/signup(.:format)         account#signup
+         account_login GET    /account/login(.:format)          account#login
+account_reset_password GET    /account/reset_password(.:format) account#reset_password
+               insects GET    /insects(.:format)                insects#index
+                       POST   /insects(.:format)                insects#create
+            new_insect GET    /insects/new(.:format)            insects#new
+           edit_insect GET    /insects/:id/edit(.:format)       insects#edit
+                insect GET    /insects/:id(.:format)            insects#show
+                       PATCH  /insects/:id(.:format)            insects#update
+                       PUT    /insects/:id(.:format)            insects#update
+                       DELETE /insects/:id(.:format)            insects#destroy
+smk1993@ubuntu:~/railsapps/secondapp$ ^C
